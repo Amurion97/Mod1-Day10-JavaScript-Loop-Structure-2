@@ -13,12 +13,12 @@ function primeCheck(number){
 
 let count = 0;
 let i = 0;
-const N = 20;
+const N = parseInt(prompt("So luong so nguyen to muon in ra: "));
 // console.log(N);
 while (count < N) {
     if (primeCheck(i)) {
-        console.log(i);
         count ++;
+        console.log("STT",count,":",i);
     }
     i ++;
 }
