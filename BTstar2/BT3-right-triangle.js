@@ -23,7 +23,7 @@ document.addEventListener("click", function(event){
 function drawNW(height) {
     result = "<p>The resulted triangle: </p>"
     for (let i = 1; i <= height; i++) {
-        result += "<p class='no-margin'>";
+        result += "<p class='no-margin font-monospace'>";
         for (let j = 1; j <= height; j++) {
             if (j <= i) {
                 result += "*";
